@@ -1,0 +1,12 @@
+{
+    "image": "pspdev/pspdev",
+    "postAttachCommand": "apk add cmake",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpp-tools",
+                "ms-vscode.cmake-tools"
+            ]
+        }
+    }
+}
