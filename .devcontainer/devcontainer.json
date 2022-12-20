@@ -1,6 +1,6 @@
 {
     "image": "pspdev/pspdev",
-    "postAttachCommand": "apk add cmake",
+    "onCreateCommand": "apk add cmake git",
     "customizations": {
         "vscode": {
             "extensions": [

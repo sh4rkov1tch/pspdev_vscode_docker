@@ -1,11 +1,7 @@
 {
     "cmake.cmakePath": "/usr/bin/cmake",
-    "cmake.cmakeCommunicationMode": "legacy",
     "cmake.configureSettings": {
-        "CMAKE_C_COMPILER": "/usr/local/pspdev/bin/psp-gcc",
-        "CMAKE_CXX_COMPILER": "/usr/local/pspdev/bin/psp-g++",
-        "CMAKE_C_COMPILER_WORKS": 1,
-        "CMAKE_CXX_COMPILER_WORKS": 1,
         "CMAKE_TOOLCHAIN_FILE": "/usr/local/pspdev/psp/share/pspdev.cmake"
     },
+    "cmake.configureOnOpen": true
 }
