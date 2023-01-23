@@ -1,6 +1,7 @@
 {
     "image": "pspdev/pspdev",
     "onCreateCommand": "apk add cmake git",
+    "runArgs": ["--platform", "linux/amd64"],
     "customizations": {
         "vscode": {
             "extensions": [
